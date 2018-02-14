@@ -41,7 +41,7 @@ README.md file.
 Below is an example repository structure.
 
 ## Evaluation 
-Import exercise repository and clone it to your computer, create android 
+Import exercise repository and clone it to your computer, create iOS 
 projects inside this repo, code, add, commit, push/sync repo. When you are 
 starting an another exercise, you only need to create a new project inside this 
 repository in your computer, start coding, add files, commit and push. 

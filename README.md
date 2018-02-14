@@ -1,5 +1,5 @@
 # iOS Application Development course exercises
-This is an iOS Application Development course exercises starter repository. '
+This is an iOS Application Development course exercises starter repository.
 Each student need to import this starter repository and complete each exercise
 inside this repository.
 

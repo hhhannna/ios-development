@@ -68,5 +68,5 @@ Remember create a new project for each exercise inside this repository. Read
 carefully all the exercise instructions before coding. Remember close exercise 
 issue when you have completed your exercise project work.
 
-:small_orange_diamond: [Exercise (issue #01) - The basics of the Swift programming](https://gitlab.labranet.jamk.fi/TTOW0420/iOS-Application-Development-Exercises/issues/1) <br/>
+:small_orange_diamond: [Exercise (issue #01) - The basics of the Swift programming](https://gitlab.labranet.jamk.fi/TTOW0640/iOS-Application-Development-Exercises/issues/1) <br/>
 

@@ -21,8 +21,8 @@ Each project should be named with the givin naming rule in each exercise
 instructions. Read carefully each exercise instruction from issues.
 
 ### README.md
-Each project/excercise should include README.md file which contains information 
-about your exercise work. Describe how the exercise is done and how it works 
+Each project should include README.md file which contains information 
+about your exercise work. Describe how the exercise has been done and how it works 
 and/or is there still some errors. Include needed links to other related 
 materials in a web which describes how your have done your exercise. 
 You can record for example a video and upload it to YouTube or you can add 

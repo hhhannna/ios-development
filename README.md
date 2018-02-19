@@ -32,7 +32,7 @@ Exercise will not accepted if your project folder doesn't contain a README.md
 file with needed information for evaluation.
 
 ### Screenshots and/or Videos
-Each project should include Screenshots and/or Videos folder. These screenshots
+Each project (except demo01 - README.md is enough in demo01) should include Screenshots and/or Videos folder. These screenshots
 and videos demonstrates your application functionality. Video files can be in 
 internet for example YouTube. Remember then include links to your videos in 
 README.md file.

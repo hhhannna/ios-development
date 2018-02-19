@@ -38,7 +38,18 @@ internet for example YouTube. Remember then include links to your videos in
 README.md file.
 
 ### Repository structure example
-Below is an example repository structure.
+Below is an example repository structure. Example contains two projects: Basics.... Both have own README.md file 
+which describes how project is done. 
+
+File/Folder        | Description           
+-------------|-------------
+README.md | this file
+Basics | Basics project folder
+Basics/README.md | project README.md file with your own comments from this project
+Basics/Exercise01/main.swift | Exercise 1 main.swift file
+Basics/Exercise02/main.swift | Exercise 2 main.swift file
+...
+JA TÄHÄN TOINEN PROJEKTI MALLIKSI
 
 ## Evaluation 
 Import exercise repository and clone it to your computer, create iOS 

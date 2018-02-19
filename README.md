@@ -34,7 +34,7 @@ file with needed information for evaluation.
 ### Screenshots and/or Videos
 Each project (except demo01 - README.md is enough in demo01) should include Screenshots and/or Videos folder. These screenshots
 and videos demonstrates your application functionality. Video files can be in 
-internet for example YouTube. Remember then include links to your videos in 
+internet, for example in YouTube. Remember include links to your videos in 
 README.md file.
 
 ### Repository structure example

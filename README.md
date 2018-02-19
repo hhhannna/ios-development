@@ -44,7 +44,7 @@ which describes how project is done.
 File/Folder        | Description           
 -------------|-------------
 README.md | this file
-Basics | Basics project folder
+Basics | Basics project folder (first issue/exercise)
 Basics/README.md | project README.md file with your own comments from this project
 Basics/Exercise01/main.swift | Exercise 1 main.swift file
 Basics/Exercise02/main.swift | Exercise 2 main.swift file

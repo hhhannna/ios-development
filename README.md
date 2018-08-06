@@ -49,7 +49,7 @@ Each project should include Screenshots and/or Videos folder. These screenshots 
 be in internet, for example YouTube. Remember then include links to your comments in issues.
 
 ### Repository structure example
-Below is an example repository structure. Example contains Demo01 folder with multiple projects inside it (Exercise01, ...) and
+Below is an example repository structure. Example contains Basics folder with multiple projects inside it (Exercise01, ...) and
 AutoLayoutExercise folder with all Xcode project files and two screenshots.
 
 File/Folder | Description           

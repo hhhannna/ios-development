@@ -7,9 +7,8 @@ Development workspace at JAMK GitLab. After that, each student need to import th
 exercise repository back to JAMK GitLab with his/her own account and complete each exercise 
 inside this repository.
 
-Student needs to send his/her name, studentID and repository url to teacher via 
-email immediately after student has imported iOS-Exercises repository 
-back using his/her own account (repository name and path is then available).
+When you are creating a new repository using this template,
+REMEMBER USE ios-exercises as a repository name, otherwise evaluation tool can't find your repository!
 
 Student need to add teacher to repository member for an evaluation purposes. Teacher need at least Reporter role.
 
@@ -46,7 +45,7 @@ your project folder doesn't contain files with needed for an evaluation.
 
 ### Screenshots and/or Videos
 Each project should include Screenshots and/or Videos folder. These screenshots and videos demonstrates your application functionality. Video files can
-be in internet, for example YouTube. Remember then include links to your comments in issues.
+be in internet, for example <b>YouTube</b>. Remember then include links to your comments in issues.
 
 ### Repository structure example
 Below is an example repository structure. Example contains Basics folder with multiple projects inside it (Exercise01, ...) and

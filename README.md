@@ -8,7 +8,7 @@ exercise repository back to JAMK GitLab with his/her own account and complete ea
 inside this repository.
 
 When you are creating a new repository using this template,
-REMEMBER USE ios-exercises as a repository name, otherwise evaluation tool can't find your repository!
+REMEMBER USE <b>ios-exercises</b> as a repository name, otherwise evaluation tool can't find your repository!
 
 Student need to add teacher to repository member for an evaluation purposes. Teacher need at least Reporter role.
 

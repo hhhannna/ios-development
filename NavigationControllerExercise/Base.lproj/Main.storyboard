@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aG5-cC-XYr">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NavigationControllerExercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5lV-0s-chZ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="90" id="HmB-XZ-Aul">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HmB-XZ-Aul" id="Pey-Mf-meo">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="89.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="daQ-eM-uYv"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="d1p-Vw-LjL"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5lV-0s-chZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GKa-bb-Qhf"/>
+                            <constraint firstItem="5lV-0s-chZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Zsy-DI-Act"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5lV-0s-chZ" secondAttribute="bottom" id="fuf-4C-goi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5lV-0s-chZ" secondAttribute="trailing" id="lbs-SN-dAP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jnW-bn-AMX"/>
+                    <connections>
+                        <outlet property="tableView" destination="5lV-0s-chZ" id="J48-sS-Uj9"/>
+                        <segue destination="TTi-mw-DR5" kind="show" identifier="SegueEmployeeDetailViewController" id="XsF-rA-Yqa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="975" y="-77"/>
+        </scene>
+        <!--Employee Detail View Controller-->
+        <scene sceneID="bsk-vY-bPR">
+            <objects>
+                <viewController id="TTi-mw-DR5" customClass="EmployeeDetailViewController" customModule="NavigationControllerExercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0fD-sO-Sj1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lxT-Y9-3bg">
+                                <rect key="frame" x="43" y="119" width="328" height="310"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Employee name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6c-85-4Ya">
+                                <rect key="frame" x="147" y="472" width="121.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k3Z-sZ-bW9">
+                                <rect key="frame" x="94" y="657" width="226" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="27"/>
+                                <color key="tintColor" red="1" green="0.83236917629999996" blue="0.94980839370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Click to see my pet!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="1" green="0.83236917629999996" blue="0.94980839370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uag-tP-Ec8" kind="show" identifier="SegueEmployeeInfoController" id="6wp-8V-Y1h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k6c-85-4Ya" firstAttribute="leading" secondItem="euD-Jq-JBU" secondAttribute="leading" constant="158" id="EQe-Cl-Hbd"/>
+                            <constraint firstItem="lxT-Y9-3bg" firstAttribute="top" secondItem="euD-Jq-JBU" secondAttribute="top" constant="75" id="JzU-9V-3KF"/>
+                            <constraint firstItem="k6c-85-4Ya" firstAttribute="top" secondItem="lxT-Y9-3bg" secondAttribute="bottom" constant="45" id="SeF-dz-mZp"/>
+                            <constraint firstItem="euD-Jq-JBU" firstAttribute="trailing" secondItem="k6c-85-4Ya" secondAttribute="trailing" constant="134.5" id="Tnn-Wh-cyu"/>
+                            <constraint firstItem="euD-Jq-JBU" firstAttribute="trailing" secondItem="lxT-Y9-3bg" secondAttribute="trailing" constant="43" id="XfB-Ye-YhV"/>
+                            <constraint firstItem="lxT-Y9-3bg" firstAttribute="leading" secondItem="euD-Jq-JBU" secondAttribute="leading" constant="43" id="jo5-p1-Yam"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="euD-Jq-JBU"/>
+                    </view>
+                    <connections>
+                        <outlet property="employeeImageView" destination="lxT-Y9-3bg" id="CRo-GJ-Vja"/>
+                        <outlet property="employeeLabel" destination="k6c-85-4Ya" id="ZE2-wK-DoM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UJw-BM-Ced" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1811.594202898551" y="-77.008928571428569"/>
+        </scene>
+        <!--Employee Info Controller-->
+        <scene sceneID="xED-PW-Q5b">
+            <objects>
+                <viewController id="uag-tP-Ec8" customClass="EmployeeInfoController" customModule="NavigationControllerExercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nOd-u8-9eY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jxc-cD-A1p">
+                                <rect key="frame" x="0.0" y="88" width="414" height="448"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jxc-cD-A1p" firstAttribute="top" secondItem="ZXi-NU-yem" secondAttribute="top" id="2Y8-2l-8m5"/>
+                            <constraint firstItem="Jxc-cD-A1p" firstAttribute="leading" secondItem="ZXi-NU-yem" secondAttribute="leading" id="kmf-lT-aEV"/>
+                            <constraint firstItem="Jxc-cD-A1p" firstAttribute="height" secondItem="nOd-u8-9eY" secondAttribute="height" multiplier="0.5" id="lrE-ct-2EP"/>
+                            <constraint firstItem="ZXi-NU-yem" firstAttribute="trailing" secondItem="Jxc-cD-A1p" secondAttribute="trailing" id="xX4-Ur-fO6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZXi-NU-yem"/>
+                    </view>
+                    <connections>
+                        <outlet property="EmployeePetImage" destination="Jxc-cD-A1p" id="Jrc-r1-ZqP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4HC-AX-drX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2621.739130434783" y="-77.008928571428569"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YMa-SK-Eb1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aG5-cC-XYr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="n15-18-gTk">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QrY-os-rVF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="avk-Io-IoE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57" y="-77"/>
+        </scene>
+    </scenes>
+</document>
